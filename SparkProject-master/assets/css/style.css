@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+.navbar-container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/homebackground.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  background-color: #31424d;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: left;
+}
+nav img {
+  width: 150px;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #b3ccc9;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.text-box {
+  width: 90%;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 62px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: white;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid #b3ccc9;
+  background: #b3ccc9;
+  transition: 1s;
+}
+.introduction {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  color: #ffffff;
+}
+h2 {
+  font-family: Garamond;
+  font-size: 30px;
+  font-weight: 500;
+}
+p {
+  color: #31424d;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.surrounding-col {
+  flex-basis: 32%;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-bottom: 3%;
+  position: repeat-x;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.surrounding-col:hover {
+  transform: scale(1.1);
+}
+.surrounding-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+h3 {
+  color: #31424d;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
