@@ -39,15 +39,3 @@ The system is composed of two main parts: a hardware layer for the physical park
 ## 📄 Project Documentation
 A complete 80-page formal project report, including ER diagrams, Use-Case diagrams, and system test reports, is available in this repository:
 **[`SPARK_ProjectReport.pdf`](SPARK_ProjectReport.pdf)**
-
-## 📸 Application Screenshots
-*(You should replace these placeholder links with actual screenshots from your project report)*
-
-**User Dashboard:**
-![Dashboard](https://placehold.co/600x400/1e293b/ffffff?text=User+Dashboard)
-
-**Slot Selection Interface:**
-![Slot Selection](https://placehold.co/600x400/1e293b/ffffff?text=Slot+Selection)
-
-**Wallet & Payment Form:**
-![Wallet](https://placehold.co/600x400/1e293b/ffffff?text=Wallet+UI)
