@@ -4,13 +4,11 @@
 This is a comprehensive IoT-based smart parking system developed for our final year BCA project at Don Bosco College, Panjim, affiliated with Goa University. The system integrates a full-stack web application with physical hardware to automate and manage the entire parking lifecycle, from vehicle entry to payment. The primary goal is to reduce traffic congestion and time spent searching for parking by providing real-time slot availability.
 
 ## ✨ My Role & Contributions
-This was a collaborative team project. My specific responsibilities included:
+As the **Project Leader**, I was responsible for the overall direction and successful delivery of the project. My key contributions included:
 
-*(Fill this part with your specific contributions. For example:)*
-* *Developing the backend logic using PHP for user authentication, session management, and database interactions.*
-* *Designing and implementing the MySQL database schema, including tables for users, parking areas, and reservations.*
-* *Building the front-end for the User Dashboard and Wallet features.*
-* *Assisting with the integration of the hardware components and the web application.*
+* **Project Management & Leadership:** Managed the project timeline using Gantt charts, delegated tasks to team members, and ensured that all project milestones were met on schedule.
+* **Hardware Design & Integration:** Led the design, assembly, and programming of the entire hardware layer. This included integrating the **Arduino Nano** with the **RFID reader** for authentication and the **IR sensors** for real-time slot detection.
+* **System Testing & Validation:** Developed and executed the complete testing plan. I was personally responsible for creating all the **validation pages** to test the web application's functionality and ensure it met the project requirements.
 
 ## ⚙️ System Architecture
 The system is composed of two main parts: a hardware layer for the physical parking lot and a software layer for user interaction and management.
@@ -29,6 +27,7 @@ The system is composed of two main parts: a hardware layer for the physical park
     * **Frontend:** HTML, CSS, JavaScript
     * **Backend:** PHP
     * **Database:** MySQL
+    * **Payment Gateway:** Stripe API
     * **Hardware Programming:** C++ for Arduino
 * **Hardware:**
     * Arduino Nano
@@ -38,5 +37,17 @@ The system is composed of two main parts: a hardware layer for the physical park
     * LCD 16x2 Display
 
 ## 📄 Project Documentation
-A complete 80-page project report, including ER diagrams, Use-Case diagrams, and system test reports, is available in the repository: [`SPARK_ProjectReport.pdf`](SPARK_ProjectReport.pdf).
+A complete 80-page formal project report, including ER diagrams, Use-Case diagrams, and system test reports, is available in this repository:
+**[`SPARK_ProjectReport.pdf`](SPARK_ProjectReport.pdf)**
 
+## 📸 Application Screenshots
+*(You should replace these placeholder links with actual screenshots from your project report)*
+
+**User Dashboard:**
+![Dashboard](https://placehold.co/600x400/1e293b/ffffff?text=User+Dashboard)
+
+**Slot Selection Interface:**
+![Slot Selection](https://placehold.co/600x400/1e293b/ffffff?text=Slot+Selection)
+
+**Wallet & Payment Form:**
+![Wallet](https://placehold.co/600x400/1e293b/ffffff?text=Wallet+UI)
