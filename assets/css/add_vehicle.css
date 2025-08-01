@@ -1,0 +1,90 @@
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/homebackground.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section h1 {
+  font-size: 1.5em;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 750px;
+  height: 500px;
+  opacity: 75%;
+  padding: 18px 20px;
+}
+form .logo {
+  width: 300px;
+  height: 100px;
+  border-bottom: 4px solid rgba(225, 225, 225, 0.5);
+}
+
+form h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  border-bottom: 4px solid rgba(225, 225, 225, 0.5);
+  margin: 50px;
+}
+
+.box {
+  padding: 5px;
+  margin: 5px;
+  width: 85%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+button {
+  padding: 10px 10px;
+  margin-bottom: auto;
+  width: 200px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #31424d;
+}
